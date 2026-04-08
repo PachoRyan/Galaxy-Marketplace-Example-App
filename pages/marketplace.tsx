@@ -13,6 +13,7 @@ import { Toaster } from "@/components/ui/toaster";
 import LoginContext from "@/utils/contexts/login";
 import { setCookie } from "cookies-next";
 
+//Código editado para que funcione las flags con las badges :)
 export default function Marketplace() {
   const [headerLabel, setHeaderLabel] = useState<string>("");
   const [products, setProducts] = useState([]);
